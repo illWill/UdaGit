@@ -1,0 +1,23 @@
+More importantly: how to make a commit:
+git init
+git init
+git add <file>
+git add <file>
+git commit 
+*type in the name of the change (like "add helloworld.pl to repository")
+:x
+
+Back to most recent commit: git checkout master
+Get a new git: git clone <whatever URL>
+
+look at all commits: git log
+look at "status": git status
+back to master: git checkout master
+
+Diff:
+default to wd vs staging: git diff 
+staging vs last change: git diff --staged
+commit1 v commit2: git diff ID1 ID2
+diff ignores whitespace: git diff -w
+
+remove all changes (!!! careful son!): git reset --hard
