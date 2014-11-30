@@ -21,3 +21,10 @@ commit1 v commit2: git diff ID1 ID2
 diff ignores whitespace: git diff -w
 
 remove all changes (!!! careful son!): git reset --hard
+
+show current branches: git branch
+create a new branch name on this checked out guy: git branch *name*
+name the new branch you are on: git checkout -b *branchname*
+
+compare a commit to its parent: git show
+merging: git merge (end label [master?]) (merged label)
