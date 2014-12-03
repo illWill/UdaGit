@@ -28,3 +28,12 @@ name the new branch you are on: git checkout -b *branchname*
 
 compare a commit to its parent: git show
 merging: git merge (end label [master?]) (merged label)
+
+list remotes: git remote 
+list remotes with urls: git remote -v
+set up a remote: git remote *origin/name* *url*
+change remote: git remote set-url
+push and pull: git *push/pull* *origin/name* *master/branch*
+pull remote changes, but don't merge yet: git fetch
+
+Note that pull is like fetch+merge!

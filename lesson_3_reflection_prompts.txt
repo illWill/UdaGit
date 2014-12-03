@@ -6,24 +6,26 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+You might worry about conflicts developing with other remote commits, or you may want to branch out completely and fork the project, ignoring ongoing work from the server. 
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+A fork is like a clone, but from github repo to github repo. It adds the benefit of preserving some metadata about the relatinship of the forks that may be useful down the road
+A clone is a copy of another repo, either remotely or locally. It copies the repo in its entirety (so far as I can tell at this point)
+A branch is a lineage of commits, which may or may not share some or all of its lineage with another set of commits (on other branches). 
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+It provides a frame of reference for where your work diverged from that that is publicly available, and makes preparation for merging with the remote smoother. It allows you to fetch from the remote and store it as a separate branch, which could be useful in cases where merging might be a more protracted process or needs to be done offline
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+Depends massively on the kind of project. Other methods such as subversion, dropbox, googledocs, a wiki, shared server folders or even emailing things back and forth may all be appropriate under different circumstances
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+making changes in a separate branch can be helpful when pushing changes back to the repository if others are working simultaneously. However for projects that are less likely to have others working simultaneously, working within the master can be simpler and cleaner.
